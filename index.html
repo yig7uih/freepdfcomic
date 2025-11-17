@@ -65,7 +65,7 @@ body{
   position:absolute;
   white-space:nowrap;
   font-size:18px;
-  color:rgba(255,255,255,0.1);
+  color:rgba(255,255,255,0.9);
   opacity:0;
   animation:fadeMove linear forwards;
   user-select:none;
@@ -121,8 +121,9 @@ function createMatrixLine(){
   matrix.appendChild(div);
   setTimeout(()=>div.remove(),16000);
 }
-setInterval(createMatrixLine,500);
+setInterval(createMatrixLine,200);
 </script>
 
 </body>
 </html>
+
